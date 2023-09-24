@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bkdxalhaxolvq"]
+
+[ext_resource type="Shader" path="res://Materials/Shaders/Toon.gdshader" id="1_47oul"]
+[ext_resource type="Texture2D" uid="uid://c1xjvorxowl6s" path="res://Materials/Textures/WoodFloor01.png" id="2_rhe7x"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_47oul")
+shader_parameter/diffuse = ExtResource("2_rhe7x")

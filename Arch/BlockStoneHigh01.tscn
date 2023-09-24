@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6npnf7wqqbso"]
+
+[ext_resource type="Material" uid="uid://cunh503n3xs3t" path="res://Materials/StoneBlocks01.tres" id="1_6vff1"]
+[ext_resource type="PackedScene" uid="uid://b8ecuux1a8t3p" path="res://Arch/Models/BlockStoneHigh01.blend" id="1_n2ffj"]
+
+[node name="BlockStoneHigh01" instance=ExtResource("1_n2ffj")]
+
+[node name="BlockBrickHigh01" parent="." index="0"]
+surface_material_override/0 = ExtResource("1_6vff1")

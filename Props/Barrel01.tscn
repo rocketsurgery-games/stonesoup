@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://cmfffl8a5p8wo"]
+
+[ext_resource type="PackedScene" uid="uid://c5mqaqqvl6ejj" path="res://Props/Models/Barrel01.blend" id="1_rx03i"]
+[ext_resource type="Material" uid="uid://dhswggx5x1n8c" path="res://Materials/WoodPlanks02.tres" id="2_cuibv"]
+[ext_resource type="Material" uid="uid://ben6ktvs2jiy0" path="res://Materials/IronBands01.tres" id="3_bu841"]
+
+[node name="Barrel01" instance=ExtResource("1_rx03i")]
+
+[node name="Barrel02" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_cuibv")
+surface_material_override/1 = ExtResource("3_bu841")
+
+[node name="Top" parent="Barrel02" index="0"]
+surface_material_override/0 = ExtResource("2_cuibv")

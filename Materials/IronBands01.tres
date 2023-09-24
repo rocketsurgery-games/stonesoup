@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://ben6ktvs2jiy0"]
+
+[ext_resource type="Shader" path="res://Materials/Shaders/Toon.gdshader" id="1_piqv5"]
+[ext_resource type="Texture2D" uid="uid://blue1fbid7jkv" path="res://Materials/Textures/IronBands01.png" id="2_pdvog"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_piqv5")
+shader_parameter/diffuse = ExtResource("2_pdvog")

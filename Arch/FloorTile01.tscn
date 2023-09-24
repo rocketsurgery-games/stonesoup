@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://3h7kvq0icje2"]
+
+[ext_resource type="PackedScene" uid="uid://d0uv3ekaxo88j" path="res://Arch/Models/FloorTIle01.blend" id="1_3q411"]
+
+[node name="FloorTIle01" instance=ExtResource("1_3q411")]

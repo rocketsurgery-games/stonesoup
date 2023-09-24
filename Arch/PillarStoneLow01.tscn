@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bja1elahtt4c1"]
+
+[ext_resource type="PackedScene" uid="uid://ds7hsuj2lpjii" path="res://Arch/Models/PillarStoneLow01.blend" id="1_u4112"]
+[ext_resource type="Material" uid="uid://cunh503n3xs3t" path="res://Materials/StoneBlocks01.tres" id="2_otv0k"]
+
+[node name="PillarStoneLow01" instance=ExtResource("1_u4112")]
+
+[node name="PillarStoneLow01" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_otv0k")

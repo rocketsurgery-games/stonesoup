@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds2eoudnymk8d"]
+
+[ext_resource type="PackedScene" uid="uid://s2l3fcgo26uk" path="res://Arch/Models/WallStoneMed01.blend" id="1_1h80u"]
+[ext_resource type="Material" uid="uid://cunh503n3xs3t" path="res://Materials/StoneBlocks01.tres" id="2_atu1w"]
+
+[node name="WallStoneMed01" instance=ExtResource("1_1h80u")]
+
+[node name="WallStoneMed01" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_atu1w")

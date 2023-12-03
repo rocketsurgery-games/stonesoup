@@ -1,0 +1,107 @@
+[gd_scene load_steps=23 format=3 uid="uid://du47hu5e2ni07"]
+
+[ext_resource type="PackedScene" uid="uid://cucq3uoh1evkw" path="res://Stylized/Environment/_Models/FenceWood-01.glb" id="1_rqerg"]
+[ext_resource type="PackedScene" uid="uid://ci8rd2mw11m31" path="res://Stylized/Environment/_Models/Tree-01.glb" id="1_rwkl7"]
+[ext_resource type="PackedScene" uid="uid://c1srmijr2ek4b" path="res://Stylized/Environment/_Models/Bridge2m-01.glb" id="2_leu1r"]
+[ext_resource type="PackedScene" uid="uid://domxy7ncr82kf" path="res://Stylized/Environment/_Models/Board1m-01.glb" id="3_781rp"]
+[ext_resource type="PackedScene" uid="uid://pm4r6ngpp22s" path="res://Stylized/Environment/_Models/Board2m-01.glb" id="4_my2u8"]
+[ext_resource type="PackedScene" uid="uid://bxecqtl25d7wo" path="res://Stylized/Environment/_Models/Tree-02.glb" id="6_kd6ws"]
+[ext_resource type="PackedScene" uid="uid://dq8c55lbsutdg" path="res://Stylized/Architecture/_Models/FloorBrick-01.glb" id="7_xpl5g"]
+[ext_resource type="PackedScene" uid="uid://dh43vdfo7s83f" path="res://Forms/Architecture/_Models/WallStoneSlope1m.glb" id="8_lqxru"]
+[ext_resource type="PackedScene" uid="uid://bhgwyt3exciw6" path="res://Stylized/Architecture/_Models/FloorWood-01.glb" id="9_ujb16"]
+[ext_resource type="PackedScene" uid="uid://swrjevggmi2p" path="res://Stylized/Architecture/_Models/FloorTile-01.glb" id="10_bv6e8"]
+[ext_resource type="PackedScene" uid="uid://cdmnb4j04by8m" path="res://Stylized/Architecture/_Models/PillarStoneLow-01.glb" id="11_ms727"]
+[ext_resource type="PackedScene" uid="uid://dntt27wsbq3ku" path="res://Stylized/Architecture/_Models/PillarStoneMed-01.glb" id="12_fhqyr"]
+[ext_resource type="PackedScene" uid="uid://bbg6fs7w20efe" path="res://Stylized/Architecture/_Models/StairBrick-01.glb" id="13_42u8p"]
+[ext_resource type="PackedScene" uid="uid://dmp835ngxvv5o" path="res://Stylized/Architecture/_Models/StairBrick-02.glb" id="14_3en2i"]
+[ext_resource type="PackedScene" uid="uid://700mo8yb6xvv" path="res://Stylized/Architecture/_Models/WallStoneLow-01.glb" id="15_pasxw"]
+[ext_resource type="PackedScene" uid="uid://b72hfv2weyda5" path="res://Stylized/Architecture/_Models/WallStoneJointMed-01.glb" id="16_d4i6w"]
+[ext_resource type="PackedScene" uid="uid://cntm3bycikvfl" path="res://Stylized/Architecture/_Models/WallStoneMed-01.glb" id="17_g0i42"]
+[ext_resource type="PackedScene" uid="uid://d2m0ilse3wtox" path="res://Stylized/Architecture/_Models/WallStoneSlopeHigh-01.glb" id="18_3ehn5"]
+[ext_resource type="PackedScene" uid="uid://b6spg401fcc3f" path="res://Stylized/Architecture/_Models/WallStoneSlopeLow-01.glb" id="19_ji25k"]
+[ext_resource type="PackedScene" uid="uid://dahiufsv5thg" path="res://Stylized/Architecture/_Models/WallStoneHigh-01.glb" id="20_b3vem"]
+[ext_resource type="PackedScene" uid="uid://hotcn52bcpyh" path="res://Forms/Architecture/_Models/Block1m.glb" id="21_efaqk"]
+[ext_resource type="PackedScene" uid="uid://dx0rsj10dr32u" path="res://Forms/Architecture/_Models/Block2m.glb" id="22_1p878"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="FenceWood-01" parent="." instance=ExtResource("1_rqerg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.582584, 0, -0.633568)
+
+[node name="Bridge2m-01" parent="." instance=ExtResource("2_leu1r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.06988, 0, 0.241096)
+
+[node name="Board1m-01" parent="." instance=ExtResource("3_781rp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.531248, 0, 0.52614)
+
+[node name="Board2m-01" parent="." instance=ExtResource("4_my2u8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.217909, 0, 0.962763)
+
+[node name="Tree-01" parent="." instance=ExtResource("1_rwkl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.53619, 0, -8.00808)
+
+[node name="Tree-02" parent="." instance=ExtResource("6_kd6ws")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.91607, 0, -8.43653)
+
+[node name="FloorBrick-01" parent="." instance=ExtResource("7_xpl5g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.54029, 0, 4.29333)
+
+[node name="WallStoneSlope1m" parent="." instance=ExtResource("8_lqxru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5842, 0, -0.971972)
+
+[node name="FloorWood-01" parent="." instance=ExtResource("9_ujb16")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.97426, 0, -0.279666)
+
+[node name="FloorBrick-02" parent="." instance=ExtResource("7_xpl5g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.38214, 0, -3.33842)
+
+[node name="FloorTile-01" parent="." instance=ExtResource("10_bv6e8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.04947, -0.0130696, -1.81768)
+
+[node name="PillarStoneLow-01" parent="." instance=ExtResource("11_ms727")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -5.25)
+
+[node name="PillarStoneMed-01" parent="." instance=ExtResource("12_fhqyr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.75, 0, -7.25)
+
+[node name="StairBrick-01" parent="." instance=ExtResource("13_42u8p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, 0, -7.5)
+
+[node name="StairBrick-02" parent="." instance=ExtResource("14_3en2i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -10)
+
+[node name="WallStoneLow-01" parent="." instance=ExtResource("15_pasxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.25, 0, -9.5)
+
+[node name="WallStoneJointMed-01" parent="." instance=ExtResource("16_d4i6w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5, 0, -8.5)
+
+[node name="WallStoneMed-01" parent="." instance=ExtResource("17_g0i42")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.25, 0, -11.5)
+
+[node name="WallStoneSlopeHigh-01" parent="." instance=ExtResource("18_3ehn5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5, 0, -5.75)
+
+[node name="WallStoneSlopeLow-01" parent="." instance=ExtResource("19_ji25k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, -10.5)
+
+[node name="WallStoneSlopeHigh-02" parent="." instance=ExtResource("18_3ehn5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5, 0, -9.75)
+
+[node name="WallStoneMed-02" parent="." instance=ExtResource("17_g0i42")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.25, 0, -13)
+
+[node name="WallStoneLow-02" parent="." instance=ExtResource("15_pasxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -14.5)
+
+[node name="WallStoneJointMed-02" parent="." instance=ExtResource("16_d4i6w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.25, 0, -14)
+
+[node name="WallStoneHigh-01" parent="." instance=ExtResource("20_b3vem")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.75, 0, -15.5)
+
+[node name="Block1m" parent="." instance=ExtResource("21_efaqk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5, 0, -1.75)
+
+[node name="Block2m" parent="." instance=ExtResource("22_1p878")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.25, 0, 0.5)

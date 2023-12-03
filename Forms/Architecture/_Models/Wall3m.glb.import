@@ -1,0 +1,41 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://c7puwcnc3u25d"
+path="res://.godot/imported/Wall3m.glb-49e145b76144d3306244c87e2adb18c8.scn"
+
+[deps]
+
+source_file="res://Forms/Architecture/_Models/Wall3m.glb"
+dest_files=["res://.godot/imported/Wall3m.glb-49e145b76144d3306244c87e2adb18c8.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"WallStone01": {
+"use_external/enabled": true,
+"use_external/path": "res://Forms/Architecture/_Models/_Materials/WallStone01.tres"
+}
+}
+}
+gltf/naming_version=0
+gltf/embedded_image_handling=1

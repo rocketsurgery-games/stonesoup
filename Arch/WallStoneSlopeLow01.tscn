@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://cr7led5orpw11"]
-
-[ext_resource type="PackedScene" uid="uid://crxoxrns7puin" path="res://Arch/Models/WallStoneSlopeLow01.blend" id="1_orcqt"]
-[ext_resource type="Material" uid="uid://cunh503n3xs3t" path="res://Materials/StoneBlocks01.tres" id="2_7hx54"]
-
-[node name="WallStoneSlopeLow01" instance=ExtResource("1_orcqt")]
-
-[node name="WallStoneSlopeLow01" parent="." index="0"]
-surface_material_override/0 = ExtResource("2_7hx54")

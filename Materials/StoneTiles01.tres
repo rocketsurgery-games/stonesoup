@@ -1,9 +1,0 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://d3y0uhotck0e8"]
-
-[ext_resource type="Shader" path="res://Materials/Shaders/Toon.gdshader" id="1_1yea4"]
-[ext_resource type="Texture2D" uid="uid://diq6eouqkm5uk" path="res://Materials/Textures/StoneTiles01.png" id="2_7xw72"]
-
-[resource]
-render_priority = 0
-shader = ExtResource("1_1yea4")
-shader_parameter/diffuse = ExtResource("2_7xw72")

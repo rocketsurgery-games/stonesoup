@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://be2da3jvx4mmv"]
+
+[ext_resource type="Texture2D" uid="uid://ksqy1dngsj2a" path="res://Environment/_Models/_Materials/_Textures/Bark_D.png" id="1_pm351"]
+[ext_resource type="Texture2D" uid="uid://c550fechmhndx" path="res://Environment/_Models/_Materials/_Textures/Wood01_N.png" id="2_c621f"]
+
+[resource]
+albedo_color = Color(0.439216, 0.180392, 0.00784314, 1)
+albedo_texture = ExtResource("1_pm351")
+normal_enabled = true
+normal_texture = ExtResource("2_c621f")

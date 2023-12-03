@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://b7vtifw2p43p8"]
+
+[ext_resource type="Shader" path="res://Materials/Shaders/Toon.gdshader" id="1_56lgw"]
+[ext_resource type="Texture2D" uid="uid://tuyhxgakb82w" path="res://Characters/HumanMale01.tga" id="2_sdr3b"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_56lgw")
+shader_parameter/diffuse = ExtResource("2_sdr3b")

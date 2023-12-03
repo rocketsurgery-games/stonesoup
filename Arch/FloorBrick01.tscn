@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://twk2po21yimr"]
-
-[ext_resource type="PackedScene" uid="uid://b7pt5aeahk445" path="res://Arch/Models/FloorBrick01.blend" id="1_1ah31"]
-
-[node name="FloorBrick01" instance=ExtResource("1_1ah31")]

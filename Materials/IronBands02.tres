@@ -1,9 +1,0 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://b2xqx0mxnedy0"]
-
-[ext_resource type="Shader" path="res://Materials/Shaders/Toon.gdshader" id="1_67fo5"]
-[ext_resource type="Texture2D" uid="uid://cmsn0o0wov6vs" path="res://Materials/Textures/IronBands02.png" id="2_0njbl"]
-
-[resource]
-render_priority = 0
-shader = ExtResource("1_67fo5")
-shader_parameter/diffuse = ExtResource("2_0njbl")

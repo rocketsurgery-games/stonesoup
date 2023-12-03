@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://bs1ewxw4ns428"]
-
-[ext_resource type="PackedScene" uid="uid://j0i1670iipyo" path="res://Arch/Models/WallStoneJointHigh01.blend" id="1_uvlkw"]
-[ext_resource type="Material" uid="uid://cunh503n3xs3t" path="res://Materials/StoneBlocks01.tres" id="2_yw4bd"]
-
-[node name="WallStoneJointHigh01" instance=ExtResource("1_uvlkw")]
-
-[node name="WallStoneJointHigh01" parent="." index="0"]
-surface_material_override/0 = ExtResource("2_yw4bd")

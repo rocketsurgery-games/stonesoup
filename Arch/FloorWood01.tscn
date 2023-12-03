@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://dcsc4jjmnabqd"]
-
-[ext_resource type="PackedScene" uid="uid://bckt8k5rfqs25" path="res://Arch/Models/FloorWood01.blend" id="1_jo3nl"]
-[ext_resource type="Material" uid="uid://bkdxalhaxolvq" path="res://Materials/WoodFloor01.tres" id="2_g045l"]
-
-[node name="FloorWood01" instance=ExtResource("1_jo3nl")]
-
-[node name="FloorWood01" parent="." index="0"]
-surface_material_override/0 = ExtResource("2_g045l")

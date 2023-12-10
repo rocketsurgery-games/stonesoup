@@ -1,0 +1,19 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+cdf46216-54d5-436d-9f12-54706e1e33d6:Beams:Beams
+d4268deb-6028-49ce-8acd-c016e7cc709e:Blocks:Blocks
+dacca7dd-5b15-4a80-9d2d-d9591306c728:Doors:Doors
+418decca-a0e2-4ab5-9096-d88d1c50b23d:Floors:Floors
+602bc4ec-d0f3-43b6-ba71-f9438862b428:Foundations:Foundations
+447a50c9-586c-4839-bcd9-8a75e381fa89:Pillars:Pillars
+5b857635-8dc3-4721-9c60-d7778d5c6f53:Rails:Rails
+25a65219-3208-43ce-860d-4994f6de4f33:Roofs:Roofs
+a7194630-d63a-4a19-add2-fc242ee08708:Stairs:Stairs
+51c4e13d-336d-4426-ab1c-f45cd490a1e7:Walls:Walls
+6bcc4039-cffb-4b07-874f-f809ce5deb94:Windows:Windows

@@ -1,0 +1,20 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+230787f4-a3b7-4ba6-9b64-a784e28375ef:Architecture:Architecture
+9b595923-6f4c-4dc6-9af8-ee4fbccf3572:Architecture/Beams:Architecture-Beams
+ef5ca548-7d78-4661-b024-29adbb43f67b:Architecture/Blocks:Architecture-Blocks
+986a1f88-ace5-42e4-a28f-d40a917d4b6d:Architecture/Doors:Architecture-Doors
+93ac32f8-cc2d-48dc-88ef-ed4f302d6b5d:Architecture/Floors:Architecture-Floors
+5c8a2038-bfa3-43e0-a537-bea33da6e2ca:Architecture/Foundations:Architecture-Foundations
+d401c593-fff7-44a7-ac41-23f47b0ca396:Architecture/Pillars:Architecture-Pillars
+e12bd9b3-123c-4ec7-be58-980c2320668a:Architecture/Rails:Architecture-Rails
+944b42a5-a820-42d6-9805-77ae59373aa4:Architecture/Roofs:Architecture-Roofs
+0faa1c5f-29af-4ef8-a081-73e15e15ca74:Architecture/Stairs:Architecture-Stairs
+df97bd29-2849-426e-b67e-1a07e7c70236:Architecture/Walls:Architecture-Walls
+386547eb-826a-4b17-9804-7c8899a12d8f:Architecture/Windows:Architecture-Windows
